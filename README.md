@@ -12,10 +12,10 @@ Elections is a web application to help This is project used [Node.js][node], [Ex
 ## Get Started
 
 To run this application:
-    1. Enter this directory inside of your terminal of your choosing.
-    2. To install the required modules type `npm install`
-    3. Type `npm run start` to begin running the server.
-    4. Go to [localhost:3000](localhost:3000) and have fun!
+1. Enter this directory inside of your terminal of your choosing.
+2. To install the required modules type `npm install`
+3. Type `npm run start` to begin running the server.
+4. Go to [localhost:3000](localhost:3000) and have fun!
 
 ### Tests
 
