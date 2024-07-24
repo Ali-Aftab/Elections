@@ -1,6 +1,6 @@
 # Elections
 
-Elections is a web application to help This is project used [Node.js][node], [Express][express] and [Handlebars][handlebars].
+Elections is a web application to help people find active elections based on there location. This is project used [Node.js][node], [Express][express] and [Handlebars][handlebars].
 
 ## Installation
 
