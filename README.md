@@ -27,7 +27,7 @@ npm run test
 
 ## Troubleshooting
 
-If you need any help or notice something wrong with these instructions please reach out to [Ali Aftab](itisaftab@gmail.com)
+If you need any help or notice something wrong with these instructions please reach out to [Ali Aftab](mailto:itisaftab@gmail.com)
 
 [express]: https://expressjs.com/
 [handlebars]: https://handlebarsjs.com/
