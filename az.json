@@ -1,0 +1,78 @@
+[
+  {
+    "description": "Arizona Primary Election",
+    "date": "2024-07-30T00:00:00Z",
+    "district-divisions": [
+      {
+        "ocd-id": "ocd-division/country:us/state:az",
+        "voter-registration-authority-level": "county",
+        "election-authority-level": "county",
+        "voting-methods": [
+          {
+            "primary": true,
+            "instructions": {
+              "voting-id": "You WILL need to show ID to vote in person. There are three lists of forms of voter ID. You will need to show one form of ID from List #1 OR two forms of ID from List #2 OR a combination of two IDs from List #3.\nList #1 – Present one. Acceptable forms of photo ID with name and address include: valid Arizona driver license; valid Arizona non-operating identification card; tribal enrollment card or other form of tribal identification; valid United States federal, state, or local government-issued identification;\nList #2 – Present two. Acceptable forms of non-photo ID that bear name and address include:utility bill, bank statement, or credit union statement dated within 90 days of the election; valid Arizona Vehicle Registration; Indian Census Card; property tax statement of your residence; tribal enrollment card or other form of tribal identification; Arizona vehicle insurance card; Recorder's Certificate; valid US federal, state, or local government-issued ID, including a voter registration card issued by the County Recorder; any mailing to the elector marked \"Official Election Material\"\nList #3 – Present two. Acceptable forms of ID from Lists #1 and #2 include: valid photo identification from List 1 in which the address does not reasonably match the precinct register and non-photo identification from List 2 in which the address does reasonably match the precinct register; U.S. Passport without address and one valid item from List 2; U.S. Military identification without address and one valid item from List 2\nPlease note- Members of federally recognized tribes are not required to have an address on their tribal identification in order to cast a provisional ballot.\nVoters without ID: If you are unable to provide ID, you will be able to vote a conditional provisional ballot. Conditional provisional ballots are counted only if you present ID at your polling location before 7:00 pm on Election Day or by 5:00 pm at the county elections office within five business days after a general election that includes an election for a federal office and three business days after any other election."
+            },
+            "type": "in-person",
+            "excuse-required": false
+          },
+          {
+            "primary": false,
+            "start": "2024-07-03T00:00:00Z",
+            "type": "early-voting",
+            "excuse-required": false,
+            "url": "https://azsos.gov/elections/about-elections/elections-procedures/early-voting-procedures",
+            "end": "2024-07-26T00:00:00Z",
+            "exact-dates": false
+          },
+          {
+            "ballot-request-form-url": "https://azsos.gov/sites/default/files/2023-11/aevl_2022_registration_form_r1.pdf",
+            "primary": false,
+            "type": "by-mail",
+            "vbm-alias": "mail/early",
+            "excuse-required": false,
+            "ballot-request-deadline-received": "2024-07-19T00:00:00Z",
+            "acceptable-forms": [{ "name": "az_absentee" }]
+          }
+        ],
+        "voter-registration-methods": [
+          {
+            "deadline-postmarked": "2024-07-01T00:00:00Z",
+            "instructions": {
+              "idnumber": "Your completed voter registration form must contain the number of your Arizona driver's license, or non-operating identification license issued pursuant to A.R.S. Sec. 28-3165, if the license is current and valid. If you do not have a current and valid Arizona driver's license or non-operating identification license, you must include the last four digits of your Social Security number if one has been issued to you. If you do not have a current and valid driver's license or non-operating identification license or a Social Security number, please write \"NONE\" on the form. A unique identifying number will be assigned by the Secretary of State.",
+              "signature": "To register in Arizona you must: \nbe a citizen of the United States (proof of citizenship required to vote \"full ballot\")\nbe a resident of Arizona and your county at least 29 days preceding the next election \nbe 18 years old on or before the next general election \nnot have been convicted of treason or a felony (or have had your civil rights restored) \nnot currently be declared an incapacitated person by a court of law with your voting rights revoked\nbe able to write your name or make your mark (unless prevented by disability)",
+              "citizenship-docs": "If this is your first time registering to vote in Arizona or you have moved to another county in Arizona, your voter registration form also must include proof of citizenship or you may be registered as a federal-only voter. To be eligible to vote a “full ballot,” you must submit proof of citizenship with your registration form. A“full ballot” includes all federal, state, county, and local races and ballot questions for which you are eligible to vote. If you have an Arizona driver's license or non-operating identification issued after October 1, 1996, write the number on the form. This will serve as proof of citizenship and no additional documents are needed. If not, you should attach proof of citizenship to the form. Please include a copy of one of the following documents: birth certificate and supporting legal documentation (i.e. marriage certificate) if the name on the birth certificate is not the same as your current legal name; passport; naturalization documents or ID number; Bureau of Indian Affairs (BIA) card number, tribal treaty card number, or tribal enrollment number; or Tribal Certificate of Indian Blood or Tribal or BIA Affidavit of Birth. Do not send original documents. Photocopies will not be returned to you.",
+              "new-voter": "If you are registering to vote for the first time in your jurisdiction and are mailing this registration application, Federal law requires you to show proof of identification the first time you vote. Proof of identification includes:\nA current and valid photo identification or\nA current utility bill, bank statement, government check, paycheck or government document that shows your name and address.\nMore information <a href=\"https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_ENG.pdf\">here</a>."
+            },
+            "type": "by-mail",
+            "acceptable-forms": [{ "name": "nvrf" }],
+            "registration-form-url": "https://azsos.gov/sites/default/files/voter_registration_form_092222-standard.pdf"
+          },
+          {
+            "instructions": {
+              "registration": "You should know: you need an Arizona driver's license or non-operating ID to use Arizona's online voter registration system. If you don't have an Arizona-issued ID, you can still register by mail to vote."
+            },
+            "type": "online",
+            "supports-iframe": false,
+            "deadline-online": "2024-07-01T00:00:00Z",
+            "url": "https://servicearizona.com/VoterRegistration/selectLanguage"
+          },
+          { "type": "in-person", "end": "2024-07-01T00:00:00Z" }
+        ],
+        "primary-voting-method-source": "state"
+      }
+    ],
+    "type": "state",
+    "source": {
+      "type": "website",
+      "notes": "https://azsos.gov/elections/elections-calendar-upcoming-events",
+      "date": "2024-05-08T00:00:00Z"
+    },
+    "polling-place-url": "https://my.arizona.vote/WhereToVote.aspx?s=address",
+    "qa-status": "complete",
+    "id": "65cd3820-6252-465d-a388-951683abb7a5",
+    "population": 7079203,
+    "website": "https://my.arizona.vote/PortalList.aspx",
+    "polling-place-url-shortened": "https://tvote.org/2Wn1pp9"
+  }
+]

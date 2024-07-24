@@ -1,0 +1,76 @@
+<div class="search">
+  {{#if votingData.length}}
+    <h1>Your Election results below!</h1>
+    <h1>⬇️</h1>
+    <h2>We found {{votingData.length}} election near you!</h2>
+    {{#each votingData}}
+      <div class="boxed">
+        <h3 class="red">{{description}}</h3>
+        <p>You have
+          {{description}}
+          occuring near you on
+          {{date}}. This is a
+          {{type}}
+          election.</p>
+        <p>To find more information on the
+          {{description}}
+          please check out the official
+          <a href="{{website}}">site.</a>
+        </p>
+        <p>To find more info about where are the polls are please click
+          <a href="{{polling-place-url}}">here</a>.
+        </p>
+        <h3>District Divisions</h3>
+        {{#each district-divisions}}
+          <h4>How to Register</h4>
+          <p>There are numerous ways to register...</p>
+          {{#each voting-methods}}
+            <ul>
+              <li class="capitalize-first">{{type}}<ul>
+                  {{#each instructions}}
+                    <li class="small-text">{{this}}</li>
+                  {{/each}}
+                  {{#if deadline}}
+                    <li class="small-text">Deadline: {{deadline}}</li>
+                  {{/if}}
+                  {{#if url}}
+                    <li class="small-text">More info:
+                      <a href="{{url}}">click here</a>!</li>
+                  {{/if}}
+                </ul>
+
+              </li>
+            </ul>
+          {{/each}}
+          <h4>How to Vote?</h4>
+          <p>There are numerous ways to vote...</p>
+          {{#each voter-registration-methods}}
+            <ul>
+              <li class="capitalize-first">{{type}}<ul>
+                  {{#each instructions}}
+                    <li class="small-text">{{this}}</li>
+                  {{/each}}
+                  {{#if url}}
+                    <li class="small-text">More info:
+                      <a href="{{url}}">click here</a>!</li>
+                  {{/if}}
+                </ul>
+              </li>
+            </ul>
+          {{/each}}
+          <p></p>
+        {{/each}}
+        {{#if source.isOnline}}
+          <small>We received our information from
+            <a href="{{source.notes}}">online</a>.</small>
+        {{else}}
+          <small>We received our information from {{source.type}}.</small>
+        {{/if}}
+      </div>
+    {{/each}}
+    {{for}}
+  {{else}}
+    <h1>No Results were found!</h1>
+    <h1>🚫</h1>
+  {{/if}}
+</div>

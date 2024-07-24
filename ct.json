@@ -1,0 +1,77 @@
+[
+  {
+    "description": "Connecticut Primary Election",
+    "date": "2024-08-13T00:00:00Z",
+    "district-divisions": [
+      {
+        "ocd-id": "ocd-division/country:us/state:ct",
+        "voter-registration-authority-level": "municipal",
+        "election-authority-level": "municipal",
+        "voting-methods": [
+          {
+            "ballot-request-form-url": "https://portal.ct.gov/-/media/SOTS/ElectionServices/AB-Application/AB_Application_20220922/ED-3-Rev-English-20220922.pdf",
+            "primary": false,
+            "type": "by-mail",
+            "vbm-alias": "absentee",
+            "excuse-required": true,
+            "ballot-request-deadline-received": "2024-08-12T00:00:00Z",
+            "acceptable-forms": [{ "name": "ct_absentee" }]
+          },
+          {
+            "primary": false,
+            "start": "2024-08-05T00:00:00Z",
+            "type": "early-voting",
+            "excuse-required": false,
+            "url": "https://portal.ct.gov/sots/election-services/early-voting/early-voting",
+            "end": "2024-08-11T00:00:00Z",
+            "exact-dates": false
+          },
+          {
+            "primary": true,
+            "instructions": {
+              "voting-id": "You may be asked to show ID to vote in Connecticut. \nAcceptable forms include: Social Security card; any pre-printed form of ID that shows your name and address, name and signature, or name and photograph\n\nIf you're a first-time voter who registered by mail, you will need to show proof of residence as well. \nAcceptable forms include: current and valid photo ID that shows your name and address; copy of a current utility bill, bank statement, government check, paycheck, or government document that shows your name and address\n\nVoters without ID: If you are unable to provide ID, you will be able to sign an affidavit instead and then vote normally. If you're a first-time voter without ID, you may vote a provisional ballot."
+            },
+            "type": "in-person",
+            "excuse-required": false
+          }
+        ],
+        "voter-registration-methods": [
+          { "type": "in-person", "end": "2024-08-12T00:00:00Z" },
+          {
+            "instructions": {
+              "registration": "You should know: to use the online voter registration system you must have a current and valid driver’s license, learner’s permit, or non-driver photo identification card issued by the Connecticut Department of Motor Vehicles (DMV) and a signature on file with DMV"
+            },
+            "type": "online",
+            "supports-iframe": false,
+            "deadline-online": "2024-07-26T00:00:00Z",
+            "url": "https://voterregistration.ct.gov/OLVR/welcome.do"
+          },
+          {
+            "deadline-postmarked": "2024-07-26T00:00:00Z",
+            "instructions": {
+              "new-voter": "If you are registering to vote for the first time in your jurisdiction and are mailing this registration application, Federal law requires you to show proof of identification the first time you vote. Proof of identification includes: current and valid photo identification or\ncurrent utility bill, bank statement, government check, paycheck or government document that shows your name and address.\nMore information <a href=\"https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_ENG.pdf\">here</a>.",
+              "signature": "To register in Connecticut you must: \nbe a citizen of the United States \nbe a resident of Connecticut and of the town in which you wish to vote \nbe at least 17 years old and be at least 18 years old on or before Election Day (17 year-olds who will turn 18 on or before Election Day, may participate in the general primary)\nhave completed confinement if previously convicted of a felony, and have had your voting rights restored by Registrars of Voters",
+              "idnumber": "When you register to vote, you must provide your Connecticut driver's license number, or if none, the last four digits of your Social Security number"
+            },
+            "type": "by-mail",
+            "acceptable-forms": [{ "name": "nvrf" }],
+            "registration-form-url": "https://portal.ct.gov/-/media/sots/electionservices/2024/ed-671-non-coded-english-5-24.pdf"
+          }
+        ],
+        "primary-voting-method-source": "state"
+      }
+    ],
+    "type": "state",
+    "source": {
+      "type": "website",
+      "notes": "https://portal.ct.gov/-/media/sots/electionservices/calendars/2024-election/2024ec_final-draft_12-21-23-002.pdf",
+      "date": "2024-06-19T00:00:00Z"
+    },
+    "polling-place-url": "https://portaldir.ct.gov/sots/LookUp.aspx",
+    "qa-status": "complete",
+    "id": "6564fc0c-0707-4bf5-8808-2b429fdc68a7",
+    "population": 3605330,
+    "website": "https://portal.ct.gov/sots/common-elements/v5-template---redesign/elections--voting--home-page",
+    "polling-place-url-shortened": "https://tvote.org/2vlrgzB"
+  }
+]
