@@ -2,14 +2,12 @@
 
 Elections is a web application to help people find active elections based on there location. This is project used [Node.js][node], [Express][express] and [Handlebars][handlebars].
 
-## Installation
-
 ### Requirements
 
 - [Node.js][node] v12+
 - [npm][npm]
 
-## Get Started
+## Installation & Get Started
 
 To run this application:
 1. Enter this directory inside of your terminal of your choosing.
